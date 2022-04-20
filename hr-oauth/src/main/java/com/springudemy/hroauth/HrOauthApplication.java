@@ -11,13 +11,13 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 public class HrOauthApplication implements CommandLineRunner{
 
-//	@Value("${hr-oauth.oauth.appname}")
+//	@Value("${oauth.client.name}")
 //	private String appName;
 //	
-//	@Value("${hr-oauth.oauth.appsecret}")
+//	@Value("${oauth.client.secret}")
 //	private String appSecret;
 //	
-//	@Value("${hr-oauth.oauth.expiration}")
+//	@Value("${oauth.jwt.expiration}")
 //	private int expiration;
 	
 	public static void main(String[] args) {
